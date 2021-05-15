@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Lato-regular;
+    src: url(./fonts/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Butler-regular;
+    src: url(./fonts/Butler_Webfont/);
+}
+:root{
+    --color-black: #1d1d1d;
+    --color-gray: #f4f4f4;
+    --color-burg: #efb697;
+    --primary-font: Lato-regular;
+}
+.footer-copyright{
+    color: var(--color-black);
+}

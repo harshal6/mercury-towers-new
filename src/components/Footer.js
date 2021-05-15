@@ -7,21 +7,34 @@ const Footer = ({}) => {
       <div className="section-inner">
         <div className="footer-credits">
           <p className="footer-copyright">
-            © {new Date().getFullYear()}{" "}
-            <Link to={"/"}>Gatsby Starter WordPress Twenty Twenty</Link>
+            © ALL RIGHTS RESERVED MERCURY TOWERS {new Date().getFullYear()}
           </p>
-          <p>
+          <p className="footer-link">
             <a
               className="powered-by-wordpress"
               href="https://www.henrikwirth.com"
               rel="noreferrer noopener"
             >
-              Proudly presented by Henrik Wirth
+              Privacy policy
+            </a>
+            <a
+              className="powered-by-wordpress"
+              href="https://www.henrikwirth.com"
+              rel="noreferrer noopener"
+            >
+              Terms
+            </a>
+            <a
+              className="powered-by-wordpress"
+              href="https://www.henrikwirth.com"
+              rel="noreferrer noopener"
+            >
+              Copyright {new Date().getFullYear()-1}
             </a>
           </p>
         </div>
 
-        <a className="to-the-top" href="#site-header">
+       {/* <a className="to-the-top" href="#site-header">
           <span className="to-the-top-long">
             To the top{" "}
             <span className="arrow" aria-hidden="true">
@@ -34,7 +47,7 @@ const Footer = ({}) => {
               ↑
             </span>
           </span>
-        </a>
+        </a>  */}
       </div>
     </footer>
   )

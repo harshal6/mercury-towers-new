@@ -52,7 +52,7 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 
-html,
+/*html,
 body {
   border: none;
   margin: 0;
@@ -268,6 +268,24 @@ Inter variable font. Usage:
   src: url(./fonts/inter/Inter-italic-var.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: Lato-regular;
+  src: url(./fonts/Lato/Lato-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Butler-regular;
+  src: url(./fonts/Butler_Webfont/Butler-Bold.woff2);
+}
+:root{
+  --color-black: #1d1d1d;
+  --color-gray: #f4f4f4;
+  --color-burg: #efb697;
+  --primary-font: Lato-regular;
+}
+.footer-copyright{
+  color: var(--color-black);
+}
 /* Accessibility Settings -------------------- */
 
 @media (prefers-reduced-motion: reduce) {

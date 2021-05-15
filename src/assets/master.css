@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Lato-regular;
+    src: url(./fonts/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Butler-regular;
+    src: url(./fonts/Butler_Webfont/Butler-Bold.woff2);
+  }
+  @font-face {
+    font-family: Butler-Light;
+    src: url(./fonts/Butler_Webfont/Butler-Light.woff);
+  }
+  :root{
+    --color-black: #1d1d1d;
+    --color-gray: #f4f4f4;
+    --color-burg: #efb697;
+    --color-footer-link: #707070;
+    --color-prim-menu: #1c1c1c;
+    --primary-font: Lato-regular;
+    --primary-font-heading: Butler-light;
+    --primary-size-xxs: 10px;
+    --primary-size-xs: 12px;
+    --primary-size-s: 14px;
+    --primary-size-M: 10px;
+    --primary-size-L: 10px;
+    --primary-size-xl: 30px;
+    --primary-size-xxl: 40px;
+    --font-regular: 400;
+    --font-light: 300;
+    --lato-reg: var(--font-regular) var(--primary-size-xxs)  var(--primary-font);
+    --lato-reg-menu: var(--font-regular) var(--primary-size-s)  var(--primary-font);
+    --butler-regular-heading: var(--font-light) var(--primary-size-xl)  var(--primary-font-heading);
+  }
+  .container{
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  h3.primary-head{
+    font-size: 30px !important;
+    font-family: var(--primary-font-heading);
+    font-weight: 300;
+  }
+  .footer-copyright,.footer-link a{
+    color: var(--color-footer-link);
+    font: var(--lato-reg);
+  }
+  #site-footer{
+      background: var(--color-black);
+      padding: 22.5px 0 26px 0;
+  }
+  .footer-credits{
+      justify-content: space-between;
+      width: 100%;
+  }
+  .footer-link{
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+  }
+  .header-inner{
+      flex-wrap: wrap;
+      padding: 0;
+  }
+  .header-titles-wrapper{
+      max-width: 100%;
+      width: 100%;
+      justify-content: center !important;
+      margin: 0 auto;
+      padding: 12px 0;
+  }
+
+  /*Header Styles */
+  h1.site-title{
+    color: var(--color-footer-link);
+    font: var(--primary-size-xs) var(--primary-font) ;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  h1.site-title a{
+      font-size: 24px;
+      text-decoration: none !important;
+  }
+  h1.site-title a span{
+      display: block;
+      font-size: 10px;
+  }
+  .header-navigation-wrapper{
+      width: 100%;
+      border-top: 1px solid #efefef;
+      padding: 15px 0 18px 0;
+  }
+  .primary-menu-wrapper ul.primary-menu{
+    margin: 0 auto;
+    justify-content: center ;
+  }
+  .header-toggles{
+      display: none;
+  }
+  .primary-menu-wrapper .primary-menu li{
+      margin-top: 0;
+  }
+  .primary-menu-wrapper .primary-menu li a{
+    margin-top: 0;
+     font: var(--lato-reg-menu);
+     color: var(--color-prim-menu) !important;
+     text-decoration: none;
+  }
+  #site-header{
+      box-shadow: 0px 3px 6px #0000001A;
+  }
+  .header-inner{
+      width: 100%;
+  }
+  

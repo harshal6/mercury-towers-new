@@ -4,6 +4,7 @@ import Footer from "./Footer"
 
 import FooterMenusWidgets from "./FooterMenusWidgets"
 import MenuModal from "./MenuModal"
+import Primaryhead from "./primaryhead"
 
 const backdropClasses = " backdrop"
 
@@ -29,6 +30,7 @@ const Layout = ({ children, bodyClass }) => {
       <MenuModal isActive={backdropActive} toggleBackdrop={toggleBackdrop} />
 
       <main id="site-content" role="main">
+        <Primaryhead/>
         {children}
       </main>
 

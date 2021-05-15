@@ -22,15 +22,11 @@ const Header = ({ pageContext, toggleBackdrop, ...props }) => {
             <h1 className="site-title">
               <Link
                 to="/"
-                dangerouslySetInnerHTML={{ __html: wp.generalSettings.title }}
+                dangerouslySetInnerHTML={{ __html: wp.generalSettings.title +'<span>by Zahda Hadid Architects</span>'}}  
               />
+              
             </h1>
-            <div
-              className="site-description"
-              dangerouslySetInnerHTML={{
-                __html: wp.generalSettings.description,
-              }}
-            />
+            
           </div>
 
           <button
