@@ -5,6 +5,12 @@ import Footer from "./Footer"
 import FooterMenusWidgets from "./FooterMenusWidgets"
 import MenuModal from "./MenuModal"
 import Primaryhead from "./primaryhead"
+import Banner from "./banner"
+import Categorycard from "./categorycard"
+import Eventscard from './eventscard'
+import SecondaryBanner from './secondarybanner'
+import Headingcontent from './headingcontent'
+import Callaction from './callaction'
 
 const backdropClasses = " backdrop"
 
@@ -30,8 +36,21 @@ const Layout = ({ children, bodyClass }) => {
       <MenuModal isActive={backdropActive} toggleBackdrop={toggleBackdrop} />
 
       <main id="site-content" role="main">
+        <Banner/>
+        <div className="container">
         <Primaryhead/>
-        {children}
+        <Headingcontent heading="Explore our world" 
+    description="With over 520 stores, there’s something for everyone at MOA®. From fashion and food to tech and toys, we have what you’re looking for — and then some. If you need help finding anything, check out the directory or chat with us 24/7."/>
+        <Categorycard />
+        
+        </div>
+        <SecondaryBanner />
+        <div className="container">
+         <Headingcontent heading="Explore our Events" />
+          <Eventscard />
+        </div>
+        <Callaction/>
+         {/* {children} */}
       </main>
 
       <FooterMenusWidgets />
