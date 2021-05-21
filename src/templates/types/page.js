@@ -3,13 +3,14 @@ import { graphql } from "gatsby"
 import Layout from "../../components/Layout"
 import Seo from "../../components/Seo"
 import FeaturedMedia from "../../components/FeaturedMedia"
+import Pagelayout from "../../components/Pagelayout"
 
 const page = ({ data }) => {
   const { page } = data
   const { title, content, featuredImage, excerpt, databaseId } = page
 
   return (
-    <Layout
+    <Pagelayout
       bodyClass={`page-template-default page page-id-${databaseId} wp-embed-responsive singular missing-post-thumbnail has-no-pagination not-showing-comments footer-top-visible customize-support`}
     >
       <Seo title={title} description={excerpt} />
@@ -36,7 +37,7 @@ const page = ({ data }) => {
           />
         </div>
       </article>
-    </Layout>
+    </Pagelayout>
   )
 }
 
