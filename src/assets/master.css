@@ -960,6 +960,48 @@ font-family: var(--primary-font);
   #site-footer{
     border-top: 0.1rem solid #dedfdf;
 }
+/** subscribe form css starts here **/
 
+.subscribe-content {
+  width: 50%;
+  margin: 0 auto;
+}
+.subscribe-content  h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1d1d1d;
+  margin: 0;
+  text-align: center;
+
+}
+.subscribe-content p {
+  font-size: 14px;
+  color: #838383;
+  padding: 4% 0 0px 0;
+  text-align: center;
+}
+.subscribe-content input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #505050;
+  width: 50%;
+  float: left;
+  margin-right: 24px;
+  text-align: center;
+  font-size: 12px;
+}
+.subscribe-content input[type="submit"] {
+  border: 1px solid #9a9a9a;
+  width: 40%;
+  padding: 2% 0;
+  background: transparent;
+  color: #222;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.subscribe-content form {
+  margin-top: 7%;
+}
+
+/** subscribe form css ends here **/
 
   
