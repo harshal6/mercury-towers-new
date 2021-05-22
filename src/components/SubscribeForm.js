@@ -1,4 +1,4 @@
-function Subscribeform(props) {
+function SubscribeForm(props) {
     return(
         <div class="subscribe-content">
             <div class="col-md-12  p-0">
@@ -14,4 +14,4 @@ function Subscribeform(props) {
     );
 
 }
-export default Subscribeform
+export default SubscribeForm
