@@ -1250,3 +1250,50 @@ font-family: var(--primary-font);
   color: #1D1D1D;
 }
 /*** Css for Plan your visit page **/
+
+/** Css for news page **/
+#news-tabs .col-sm-4 {
+  width: 33.33%; }
+#news-tabs .tab-content img {
+  width: 100%; }
+#news-tabs .nav-tabs li {
+  font-size: 30px;
+}
+#news-tabs .nav-tabs li:hover a,#news-tabs  .nav-tabs>li.active>a {
+  color: #EFB697;
+  border: none;
+}
+#news-tabs .nav-tabs>li>a {
+  color: #1d1d1d;
+}
+#news-tabs .tab-content h5 {
+  color: #EFB697;
+  font-size: 11px;
+}
+#news-tabs .tab-content h4 {
+  color: #1d1d1d;
+  font-size: 20px;
+}
+#news-tabs .tab-content p {
+  color: #838383;
+  font-size: 11px;
+}
+#news-tabs .tab-content button {
+  color: #1d1d1d;
+  font-size: 12px;
+  padding: 10px 50px;
+  background: transparent;
+  border: 1px solid #333;
+  font-style: italic;
+}
+#news-tabs .box-content {
+  background-color: #fff;
+  margin-top: -40px;
+  opacity: 1;
+  position: absolute;
+  width: 75%;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+/** css for news page **/
