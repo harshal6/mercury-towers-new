@@ -4,6 +4,11 @@ import Footer from "./Footer"
 
 import FooterMenusWidgets from "./FooterMenusWidgets"
 import MenuModal from "./MenuModal"
+import SocialIcon from './SocialMenu'
+import Insta from './instagram'
+import Contact from './contact'
+import Headingcontent from './headingcontent'
+import Eventscard from './eventscard'
 
 
 const backdropClasses = " backdrop"
@@ -32,9 +37,19 @@ const Pagelayout = ({ children, bodyClassPage }) => {
       <main id="site-content" role="main">
         
         
-         {/* {children} */}
+          {children} 
       </main>
-
+      <div className="container">
+         <Headingcontent heading="Explore our Events" />
+          <Eventscard />
+        </div>
+      <div className="container-fluid socio-contact">
+        <div className="container ">
+        <SocialIcon/>
+        <Insta/>
+        <Contact/>
+        </div>
+      </div>
       <FooterMenusWidgets />
 
       <Footer />

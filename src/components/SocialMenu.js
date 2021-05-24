@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
+
 const SocialIcon = ({ label, ...props }) => {
   switch (label) {
     case "Facebook":
@@ -93,7 +94,8 @@ const SocialMenu = ({ isExpanded }) => {
     <nav
       aria-label={(isExpanded ? "Expanded " : "") + "Social links"}
       className={!isExpanded ? "footer-social-wrapper" : ""}
-    >
+    > 
+      <h3 className="Social-head">Follow us on:</h3>
       <ul
         className={
           "social-menu" +
@@ -131,6 +133,7 @@ const SocialMenu = ({ isExpanded }) => {
           )
         })}
       </ul>
+      
     </nav>
   )
 }

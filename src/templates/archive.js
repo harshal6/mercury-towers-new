@@ -30,13 +30,18 @@ const Archive = (props) => {
             post={post}
             isLast={index === nodes.length - 1}
           />
+         
+          
         )
       })}
-
+      
       <ArchivePagination {...pageInfo} archivePath={archivePath} />
     </Layout>
   )
 }
+
+
+
 
 export const query = graphql`
   query ArchivePage(

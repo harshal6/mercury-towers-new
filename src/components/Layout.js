@@ -11,6 +11,9 @@ import Eventscard from './eventscard'
 import SecondaryBanner from './secondarybanner'
 import Headingcontent from './headingcontent'
 import Callaction from './callaction'
+import SocialIcon from './SocialMenu'
+import Insta from './instagram'
+import Contact from './contact'
 
 const backdropClasses = " backdrop"
 
@@ -50,9 +53,16 @@ const Layout = ({ children, bodyClass }) => {
           <Eventscard />
         </div>
         <Callaction/>
-         {/* {children} */}
+        <div className="container-fluid socio-contact">
+        <div className="container ">
+        <SocialIcon/>
+        <Insta/>
+        <Contact/>
+        </div>
+      </div>
+         {/* {children}  */}
       </main>
-
+       
       <FooterMenusWidgets />
 
       <Footer />
