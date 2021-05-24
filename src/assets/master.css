@@ -1205,4 +1205,48 @@ font-family: var(--primary-font);
 
 /** subscribe form css ends here **/
 
-  
+
+/*** Css for Plan your visit page **/
+#visitpg-tabs .nav-tabs {
+  text-align: center;
+  margin-left: 0;
+}
+#visitpg-tabs .nav-tabs>li> {
+  margin-bottom: 30px;
+}
+#visitpg-tabs .nav-tabs>li>a {
+  color: #707070;
+}
+#visitpg-tabs .nav-tabs>li>a .fa {
+  font-size: 30px;
+  border: 1px solid #707070;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+#visitpg-tabs .tab-content {
+  background: #f5f5f5;
+  height: 370px;
+  padding: 20px;
+}
+#visitpg-tabs .tab-content h3 {
+  font-size: 30px;
+  color: #1d1d1d;
+}
+#visitpg-tabs .tab-content p {
+  color: #838383;
+  font-size: 16px;
+}
+#visitpg-tabs .tab-content-link {
+  color: #EFB697;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#visitpg-tabs .nav-tabs>li.active>a, #visitpg-tabs .nav-tabs>li>a:hover {
+  border: none;
+  color: #1D1D1D;
+  background: transparent;
+}
+#visitpg-tabs .nav-tabs>li.active>a .fa {
+  color: #1D1D1D;
+}
+/*** Css for Plan your visit page **/
