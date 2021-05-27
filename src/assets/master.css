@@ -968,25 +968,25 @@ font-family: var(--primary-font);
   max-width: 1200px;
   margin: 0 auto;
 }
-.lcp_catlist{
+..post-324 .lcp_catlist{
   padding: 144px 0;
   background: var(--color-gray);
   margin: 0;
 }
-.lcp_catlist li{
+.post-324 .lcp_catlist li{
   position: relative;
     list-style: none;
     margin-left: 0px;
     display: flex;
     margin-bottom: 160px;
 }
-.lcp_catlist li:nth-of-type(2n){
+.post-324 .lcp_catlist li:nth-of-type(2n){
   justify-content: flex-end;
 }
 .see-do-wrapper{
   background: transparent !important;
 }
-.lcp_catlist li .lcp_excerpt{
+.post-324 .lcp_catlist li .lcp-customfield{
       position: absolute;
       top: 50%;
       transform: translate(-50%,-50%);
@@ -995,12 +995,12 @@ font-family: var(--primary-font);
       padding: 130px 80px 98px 80px;
       background: #fff;
 }
-.lcp_excerpt h3{
+.lcp-customfield h3{
   font-size: 40px;
   color: var(--color-black);
   margin-bottom: 16px;
 }
-.lcp_catlist li:nth-of-type(2n) .lcp_excerpt{
+.post-324 .lcp_catlist li:nth-of-type(2n) .lcp-customfield{
   left: 40%;
 }
 .contact-details-wrap{
@@ -1023,7 +1023,7 @@ font-family: var(--primary-font);
   text-align: center;
   margin-top: 10px;
 }
-.lcp_excerpt h3{
+.lcp-customfield h3{
   margin: 0;
 }
 .lcp_title {
@@ -1157,7 +1157,7 @@ font-family: var(--primary-font);
 .see-do-wrap h2{
   max-width: 330px;
  }
-.lcp_catlist li::marker{
+.post-324 .lcp_catlist li::marker{
   display: none;
 }
 /** subscribe form css starts here **/
@@ -1204,5 +1204,62 @@ font-family: var(--primary-font);
 
 
 /** subscribe form css ends here **/
+
+.post-226 .lcp_catlist{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 550px;
+    justify-content: space-between;
+
+}
+.post-226 .lcp_catlist li{
+  width: 430px;
+  height: 146px;
+  display: flex;
+  position: relative;
+}
+.post-226 .lcp_catlist li img{
+  height: 146px !important;
+  width: 146px  !important;
+}
+.post-226 .lcp_catlist li:nth-of-type(1){
+  width: 670px;
+  height: 530px;
+}
+.post-226 .lcp_catlist li:nth-of-type(1) img{
+  height: 513px !important;
+  width: 680px !important;
+}
+.news-head{
+  font-size: 41px;
+  color: #222226;
+  text-align: center;
+}
+.post-226 .lcp-customfield{
+  position: absolute;
+}
+.post-226 .lcp_catlist li .lcp-customfield{
+  bottom: 0;
+    right: 0;
+    padding: 30px;
+    background: #fff;
+    width: 264px;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.post-226 .lcp_catlist li:nth-of-type(1) .lcp-customfield{
+  bottom: 0;
+  left: 0 !important;
+  padding: 30px;
+  background: #fff;
+  width: 566px;
+  height: auto !important;
+}
+
 
   
